@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    color:white;
+    border: 10px groove rgb(23, 1, 38);
+}
+.myimg{
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border:7px double white;
+    box-shadow: 0px 0px 3px 0.5px white;
+}
+.me{
+    font-size: 1.2rem;
+}
+.skill-container{
+    width:80%;
+    margin:auto;
+}
+.skill{
+    height: 150px;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px white;
+    background-color: rgb(29, 1, 49);
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    opacity: 0.9;
+    box-shadow:0px 0px 5px 5px white;
+}
+
+.card{
+    margin:10px;
+    padding-top:10px;
+    border:8px groove rgb(29, 1, 49);
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+}
+.card-img-top{
+    box-shadow: 0px 0px 3px 0px white;
+}
+.hero{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./sky1.jpg);
+    color:white;
+    height: 100vh;
+    text-shadow: 0px 0px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        black 25%,
+        transparent 80%
+    );
+
+    mask-image: radial-gradient(
+        ellipse at center,
+        black 25%,
+        transparent 80%
+    );
+
+}
+h1,h2{
+    font-size: 2.5rem;
+}
+.hero p{
+    font-size: 1.5rem;
+}
+footer{
+    border-top: 2px dotted rgb(102, 27, 156);
+}
